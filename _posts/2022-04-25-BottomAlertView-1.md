@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Bottom Alert View (1)"
+title: "[iOS] Bottom Alert View (1) - "
 tags: [alert]
 comments: true
 ---
