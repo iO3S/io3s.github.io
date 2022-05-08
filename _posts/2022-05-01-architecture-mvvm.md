@@ -1,21 +1,16 @@
-## MVVM Architecture
+---
+layout: post
+title: "[Architecture] MVVM Architecture - 한상민"
+tags: [iOS, Architecture, MVVM]
+comments: true
+---
+
 
 다음 글은 Advanced iOS App Architecture 의 Chapter 5. Architecture: MVVM 을 공부하며 정리한 내용입니다.
 
 책에선 MVVM Architecture 에 관하여 목적 및 각 Layer 의 역할을 기술하고, 후반부엔 전반부에 기술한 내용을 기반으로 실제 코드가 어떤식으로 짜여지게 되는지를 설명합니다.
 
 이론적인 내용을 정리하여 전반부를 요약 및 정리하여 기술합니다.
-
-
-
-layout: post
-title: Architecture: MVVM
-tags:
-
-  - iOS
-  - Architecture
-  - MVVM
-
 
 
 ## MVVM
