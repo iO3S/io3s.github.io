@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[iOS] Bottom Alert View (1) - "
+title: "[iOS] Bottom Alert View (1) - 민경준"
 tags: [alert]
 comments: true
 ---
