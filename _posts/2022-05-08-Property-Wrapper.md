@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Swift] Property Wrapper - "
+title: "[Swift] Property Wrapper - 우태헌"
 tags: [Property Wrapper, iOS, Swift]
 comments: true
 ---
