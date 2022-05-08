@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Swift] Swift Pattern Mathching - 김종찬"
-tags: [sample post, readability, test, intro]
+tags: [swift]
 comments: true
 ---
 
