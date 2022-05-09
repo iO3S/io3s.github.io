@@ -22,9 +22,9 @@ permalink: /archive/
 
     <li>
       {% if post.link %}
-      <a href="{{ post.link }}{{ post.title }}#disqus_thread">
+      <a href="{{ post.link }}#disqus_thread">{{ post.title }}</a>
       {% else %}
-      <a href="{{ site.baseurl }}{{ post.url }}{{ post.title }}#disqus_thread">
+      <a href="{{ site.baseurl }}{{ post.url }}#disqus_thread">{{ post.title }}</a>
       {% endif %}
         {{ post.title }}
       </a>
