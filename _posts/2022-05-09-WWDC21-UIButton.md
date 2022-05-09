@@ -78,6 +78,7 @@ Font 설정이 사라지고 Dynamic Type을 통해 조절을 할 수 있습니�
 
 ![](https://velog.velcdn.com/images/jxxnnee/post/7b6b571a-502d-4195-9a45-9a07a34f7163/image.png)
 
+<br/>
 
 우선 기본적으로 `UIButton`에 `Configuration`을 적용하는 두 가지 방법을 알아보도록 합시다.
 
@@ -90,8 +91,9 @@ button.configuration = .filled()
 var configuration = UIButton.Configuration.filled()
 let button = UIButton(configuration: configuration, primaryAction: nil)
 ```
-
 이렇게 두 가지의 방법이 있지만, 위에 방법은 처음 configuration의 여러 설정들을 세팅할 수 없기 때문에 아래와 같은 방법이 선호되는거 같다(?)
+
+<br/>
 
 그리고 두번째 방법을 통해 이미지와 타이틀을 세팅하는 방법은 아래와 같습니다.
 
@@ -110,6 +112,7 @@ let button = UIButton(configuration: configuration, primaryAction: nil)
 ```
 >![](https://velog.velcdn.com/images/jxxnnee/post/1593eb56-47d6-45c9-9757-239ecfb6fb68/image.png)
 
+<br/>
 
 그리고 설정된 `Configuration`은 `configurationUpdateHandler`에서 수정이 가능합니다. 해당 핸들러는 `UIButton`의 `State`가 업데이트 될 때 호출이 됩니다.
 
@@ -184,6 +187,8 @@ self.button.changesSelectionAsPrimaryAction = true
 > ![](https://velog.velcdn.com/images/jxxnnee/post/ebf695da-f0ec-4da0-ad4a-ec67d4148062/image.mp4)
 [이미지 링크](https://velog.velcdn.com/images/jxxnnee/post/ebf695da-f0ec-4da0-ad4a-ec67d4148062/image.mp4)
 
+<br/>
+
 또한 메뉴아래에 메뉴를 추가하는것 역시 가능합니다.
 
 ```swift 
@@ -213,9 +218,9 @@ self.button.menu = topMenu
 ***
 
 ### Reference
-https://zeddios.tistory.com/1291
-https://hereismyblog.tistory.com/32
-https://nyancoder.tistory.com/37
+https://zeddios.tistory.com/1291 <br/>
+https://hereismyblog.tistory.com/32 <br/>
+https://nyancoder.tistory.com/37 <br/>
 
 ### Review
 'contentEdgeInsets' was deprecated in iOS 15.0 라는 경고 문구를 보고 생긴 호기심에서 출발한 공부였지만 최근 업데이트 된 내용을 숙지하지 않고 있엇다는 점에서 반성해야 할거 같다...
