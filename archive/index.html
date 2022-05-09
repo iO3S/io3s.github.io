@@ -26,10 +26,10 @@ permalink: /archive/
       {% else %}
       <a href="{{ site.baseurl }}{{ post.url }}">
       {% endif %}
-        {{ post.title }}#disqus_thread
+        {{ post.title }}
       </a>
 
-
+      <a href="#disqus_thread"></a>
       <time>{{ post.date | date: "%Y-%m-%d" }}</time>
     </li>
   {% endfor %}
