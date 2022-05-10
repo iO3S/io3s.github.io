@@ -29,6 +29,9 @@ permalink: /archive/
         {{ post.title }}
       </a>
       <time>{{ post.date | date: "%Y-%m-%d" }}</time>
+      <div>
+        <a href="{{ site.baseurl }}{{ post.url }}#disqus_thread"></a>
+      </div>
     </li>
   {% endfor %}
 </ul>
