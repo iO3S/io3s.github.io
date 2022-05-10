@@ -14,10 +14,6 @@ layout: default
       </h1>
       
       <div>
-        <a href="{{ site.baseurl }}{{ post.url }}#disqus_thread"></a>
-      </div>
-
-      <div>
         <span class="date">
           {{ post.date | date: "%Y-%m-%d" }}
         </span>
@@ -31,6 +27,10 @@ layout: default
           </li>
           {% endfor %}
         </ul>
+      </div>
+      
+      <div>
+        <a href="{{ site.baseurl }}{{ post.url }}#disqus_thread"></a>
       </div>
 
       <div class="entry">
