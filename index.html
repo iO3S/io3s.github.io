@@ -27,11 +27,13 @@ layout: default
           </li>
           {% endfor %}
         </ul>
+        
+        
+        <span>
+          <a href="{{ site.baseurl }}{{ post.url }}#disqus_thread"></a>
+        </span>
       </div>
       
-      <div>
-        <a href="{{ site.baseurl }}{{ post.url }}#disqus_thread"></a>
-      </div>
 
       <div class="entry">
         {{ post.excerpt }}
