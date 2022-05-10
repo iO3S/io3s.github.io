@@ -1,7 +1,6 @@
-```
 ---
 layout: post
-title: "Array reserveCapacity - 한상민"
+title: "[Swift] Array reserveCapacity - 한상민"
 description: "Swift의 reserveCapacity를 통해 성능향상을 노려보자"
 ---
 
