@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Algorithm] Sorting Algorithm - Bubble, Insertion, Selection"
+title: "[Algorithm] Sorting Algorithm(Bubble, Insertion, Selection) - 조장희"
 tags: [algorithm]
 comments: true
 ---
