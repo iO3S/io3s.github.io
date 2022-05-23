@@ -22,7 +22,7 @@ RxCocoa 6.0.0<br/>
 <br/>
 
 ## Declaration
-지난번 **[Bottom Alert View 제작하기](https://velog.io/write?id=378be8e5-7e89-474d-9cd3-9ade1b2fd7d1)** 에 이어서 앱에서 커스텀한 `BottomAlertView`를 해제하는 과정과 키보드가 올라왔을때 대처 방법에 대해서 적어 봤습니다.
+지난번 **[Bottom Alert View 제작하기](https://velog.io/@jxxnnee/Swift-Bottom-Alert-View-%EC%A0%9C%EC%9E%91%ED%95%98%EA%B8%B0-1)** 에 이어서 앱에서 커스텀한 `BottomAlertView`를 해제하는 과정과 키보드가 올라왔을때 대처 방법에 대해서 적어 봤습니다.
 
 ## Release
 우선 `release`가 작동할 곳을 지정해 주어야 합니다.
