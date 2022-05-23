@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[SwiftUI] @State, @Binding - "
+title: "[SwiftUI] @State, @Binding - 김종찬"
 tags: [SwiftUI, Combine]
 comments: true
 ---
