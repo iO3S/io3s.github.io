@@ -183,7 +183,7 @@ x 내부의 값을 변경시키지 않고 새로운 결과값을 반환한다 ->
 > ⭕️ **_Good_**   
 ```swift
 var unsortedArray: [Int] = [5, 1, 3, 4]
-// 원본 unsortedArray 값이 바뀌지 않고 새로운 값을 반환한다. -> side-effect가 있다.
+// 원본 unsortedArray 값이 바뀌지 않고 새로운 값을 반환한다. -> side-effect가 없다.
 unsortedArray.sorted()
 unsortedArray
 // 원본 unsortedArray 값이 변경된다. -> side-effect가 있다.
