@@ -407,7 +407,13 @@ lastName.compare(royalFamilyName, options: [], range: nil, locale: nil)
 // good 
 // 필수파라미터 other가 앞에, 나머지 defaulted parameters들은 뒤에 있는 경우 
 // 필요에 따라서 defaulted parameters들에 값을 주더라도 호출이 일괄된 패턴을 보인다. 
-public func compare(_ other: String, options: CompareOptions = [], range: Range? = nil, locale: Locale? = nil) { }
+extension String {
+  /// ...description...
+  public func compare(
+     _ other: String, options: CompareOptions = [],
+     range: Range? = nil, locale: Locale? = nil
+  ) -> Ordering
+}
 compare("A")
 compare("B", locale: nil)
 compare("B", options: [], locale: nil)
@@ -417,7 +423,19 @@ compare("B", options: [], range: nil, locale: nil)
 ```swift
 // bad
 // 호출이 일관되지 않아 상대적으로 읽고 이해하기 힘들다. 
-public func compare(options: CompareOptions = [], range: Range? = nil, locale: Locale? = nil,_ other: String, ) { }
+extension String {
+  /// ...description 1...
+  public func compare(_ other: String) -> Ordering
+  /// ...description 2...
+  public func compare(_ other: String, options: CompareOptions) -> Ordering
+  /// ...description 3...
+  public func compare(
+     _ other: String, options: CompareOptions, range: Range) -> Ordering
+  /// ...description 4...
+  public func compare(
+     _ other: String, options: StringCompareOptions,
+     range: Range, locale: Locale) -> Ordering
+}
 compare("A")
 compare(locale: nil, "B")
 compare(options: [], locale: nil, "B")
