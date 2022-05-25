@@ -414,10 +414,6 @@ extension String {
      range: Range? = nil, locale: Locale? = nil
   ) -> Ordering
 }
-compare("A")
-compare("B", locale: nil)
-compare("B", options: [], locale: nil)
-compare("B", options: [], range: nil, locale: nil)
 ```
 > ❌ **_Bad_**   
 ```swift
@@ -436,10 +432,6 @@ extension String {
      _ other: String, options: StringCompareOptions,
      range: Range, locale: Locale) -> Ordering
 }
-compare("A")
-compare(locale: nil, "B")
-compare(options: [], locale: nil, "B")
-compare(options: [], range: nil, locale: nil, "B")
 ```
 
 
