@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[SwiftUI] Markdown syntax"
+title: "[SwiftUI] Markdown syntax - "
 tags: [SwiftUI, Markdown syntax]
 comments: true
 ---
