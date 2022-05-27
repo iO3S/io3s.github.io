@@ -129,7 +129,6 @@ List {
 
 
 
-
 #### 참고자료 
 https://developer.apple.com/documentation/swiftui/localizedstringkey/init(_:)
 https://developer.apple.com/documentation/SwiftUI/LocalizedStringKey
@@ -137,3 +136,5 @@ https://developer.apple.com/documentation/ios-ipados-release-notes/ios-ipados-15
 https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 https://developer.apple.com/forums/thread/682711
 https://developer.apple.com/documentation/swiftui/text/init(verbatim:)
+
+
