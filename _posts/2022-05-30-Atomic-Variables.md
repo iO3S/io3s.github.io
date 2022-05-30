@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[iOS] Atomic Variables - 민경준"
+title: "[Swift] Atomic Variables - 민경준"
 tags: [swift, atomic, syncronized]
 comments: true
 ---
