@@ -1,5 +1,4 @@
 ---
-published: true
 layout: post
 title: "[Algorithm] 순환참조를 피하는 방법 - 신이섭"
 tags: [weak , unowned]
