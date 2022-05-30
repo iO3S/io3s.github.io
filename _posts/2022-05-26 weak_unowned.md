@@ -36,7 +36,6 @@ Optional 여부가 다르다라는건 사라지지 않을거라는 보장이 있
 <br>
 <br/>
 1. Closure 에서 약참조/미소유 참조 사용
-# Linear time
 
 ```
 closure = { [weak self] newPoint in
