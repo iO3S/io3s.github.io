@@ -173,10 +173,9 @@ Conquer를 위해 다음 과정으로 들어가서 보니 startIndex 보다 endI
 <br/>
 
 ### 결과
-<center><img src="https://velog.velcdn.com/images/bornteller/post/755d0260-6941-4abc-a74c-8ab40c6bca18/image.png" alt="Big-0 Complexity Chart" style="float: left" width="600"></center>
+<center><img src="https://velog.velcdn.com/images/bornteller/post/810cc45f-9b62-4b93-99a4-650874a80cee/image.png" alt="Big-0 Complexity Chart" style="float: left" width="600"></center>
 <div style="clear: both;"></div>
 <br/>
-
 ## Time Complexity of Quick Sort
 
 최선(Best cases), 평균(Average cases)의 경우 O(nlong)입니다.
@@ -190,7 +189,7 @@ log N은 2로 몇 번 나눠야 1이 될 것인가를 표현하기 때문에 k =
 그렇기 때문에 O(nlogn)이 됩니다.
 
 최악(worst cases)의 경우 O(n^2)입니다.
-최악의 경우는 배열이 정렬되어 있을 경우인데, 이 경우 Divide가 이뤄지지 않아, n번만큼의 깊이를 비교해야 하고, 각 호출 단계에서 역시 평균 n번의 비교가 이루어 짐으로 O(n^2)가 됩니다.
+최악의 경우는 pivot를 양 끝으로 설정하고 배열이 정렬되어 있을 경우인데, 이 경우 Divide가 이뤄지지 않아, n번만큼의 깊이를 비교해야 하고, 각 호출 단계에서 역시 평균 n번의 비교가 이루어 짐으로 O(n^2)가 됩니다.
 <center><img src="https://velog.velcdn.com/images/bornteller/post/2487490e-961b-40b3-a850-5d11ed8becec/image.png" alt="Big-0 Complexity Chart" style="float: center" width="600"></center>
 <div style="clear: both;"></div>
 <br/>
