@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[SwiftUI] ObservableObject, @ObservedObject, @Published "
+title: "[SwiftUI] ObservableObject, @ObservedObject, @Published - 김종찬 "
 tags: [SwiftUI, ObservableObject, ObservedObject, Published] 
 comments: true
 ---
