@@ -111,7 +111,7 @@ static let sharePlay: UIActivity.ActivityType
 그렇다면 대체 어떻게 사용하는걸까요?
 
 ```swift
-/// 1. Activity Item을 설정할 때 현재의 ViewController로 설정을 합니다.
+/// 1. Activity Item을 설정할 때 UIActivityItemSource 프로토콜을 준수하고 있는 UIViewController 객체를 아이템으로 지정합니다.
 let activityItems: [Any] = [self]
 
 /// 2. 해당 ViewController에 UIActivityItemSource를 상속합니다.
