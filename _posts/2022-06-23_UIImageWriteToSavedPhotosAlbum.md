@@ -26,7 +26,7 @@ comments: true
 <br/>
 
  
-``` 
+```swift
 for (i,_) in imageArr.enumerated() {
     if let url = URL(string: "\(imageArr[i])"),
        let data = try? Data(contentsOf: url),
