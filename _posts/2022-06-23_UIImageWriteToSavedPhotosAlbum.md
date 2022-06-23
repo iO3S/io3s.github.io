@@ -36,7 +36,7 @@ for (i,_) in imageArr.enumerated() {
 }
 ```
 
-```
+```swift
 func UIImageWriteToSavedPhotosAlbum(_ image: UIImage, _ completionTarget: Any?, _ completionSelector: Selector?, _ contextInfo: UnsafeMutableRawPointer?)
 
 ```
