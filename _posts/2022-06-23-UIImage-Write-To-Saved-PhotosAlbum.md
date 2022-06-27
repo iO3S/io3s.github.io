@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[iOS] Share sheet 쓰지않고 Album에 UIImage 저장하는 방법 - 신이섭 " 
+title: "[iOS] Share sheet 쓰지않고 Album에 UIImage 저장하는 방법 - 신이섭" 
 tags: [UIImage , UIImageWriteToSavedPhotosAlbum ]
 comments: true
 ---
